@@ -1,2 +1,4 @@
 # exercicios-algoritmos
-Exercícios para treinar algorítmos
+***
+Exercícios para treinar **algorítmos**
+
