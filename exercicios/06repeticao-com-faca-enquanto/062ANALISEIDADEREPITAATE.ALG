@@ -29,6 +29,9 @@ escreva("Você deseja continuar?[S]Sim [N]Não ")
 leia(res)
 res <- maiusc(res)
 
+se (res = "S") entao
+
+
 
 
 repita
@@ -50,11 +53,18 @@ repita
       
 
 ate (res = "N")
-
+senao
+     se (res = "N") entao
+     
 media <- soma_idades/qtd_idades
 
 escreval(qtd_idades, " idades foram digitadas")
 escreval("A média das idades analisadas é de:", media)
 escreval(idade_21, " pessoas tem 21 anos ou mais")
+
+     fimse
+fimse
+
+
 
 fimalgoritmo
