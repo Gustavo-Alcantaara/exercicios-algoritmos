@@ -27,7 +27,7 @@ escreva("Digite um número: ")
     leia(res)
     res <- maiusc(res)
 
-
+se (res = "S") entao
 repita
     escreva("Digite um número: ")
     leia(num)
@@ -49,12 +49,19 @@ repita
     res <- maiusc(res)
 
 ate (res = "N")
+senao
 
+     se (res = "N") entao
 media <- soma/qtd_num
 escreval("A soma de todos os números foi de:", soma)
 escreval("O menor valor digitado foi:", menor)
 escreval("A média de todos os valores foi:", media)
 escreval(pares, " valores são pares")
+
+fimse
+fimse
+
+
 
 
 fimalgoritmo
